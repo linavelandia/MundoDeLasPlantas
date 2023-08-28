@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --principal: #D0EFD5;
+}
+.container{
+
+    display: none;
+
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+.form_contraseña{
+    width: 220px;
+    height: 220px;
+    display: none;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    padding: 42px;
+    gap: 1rem;
+    background-color: var(--principal);
+    border-radius: 9px;
+}
+.form_contraseña input{
+    border: 2px solid var(--principal);
+}
+.btn_confrimar{
+    height: 43px;
+    background-color: black;
+    color: white;
+}
+
+.container_send_correo{
+    display: flex;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container_email{
+    display: flex;
+
+    /*display: none;*/
+
+    flex-direction: column;
+    width: 133px;
+    border-radius: 9px;
+    border: 3px solid var(--principal);
+    padding: 2rem 5rem;
+}
